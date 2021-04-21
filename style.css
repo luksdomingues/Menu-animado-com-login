@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: #272932;
+}
+
+a {
+    text-decoration: none;
+}
+
+.popup-content .button {
+    background: white;
+    padding: 10px 15px;
+    color: #0F7173;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    box-shadow: 6px 6px 29px -4px rgb(0, 0, 0, 0.75);
+    margin-top: 0;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.popup-content .button:hover {
+    background: #091540;
+    color: white;
+}
+
+#mainbox {
+    font-size: 24px;
+    cursor: pointer;
+    color: #0F7173;
+    width: 8%;
+    transition: all .6s;
+    margin: 20px 40px;
+}
+
+.sidemenu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0px;
+    background: #0c0d0f;
+    z-index: 1;
+    padding-top: 100px;
+    overflow-x: hidden;
+    transition: .5s;
+}
+
+.sidemenu a {
+    padding: 8px 8px 8px 64px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #0F7173;
+    display: block;
+}
+
+.sidemenu a:hover {
+    color: #F05D5E;
+}
+
+.sidemenu .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 32px;
+}
+
+.popup {
+    background: rgb(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.popup-content {
+    width: 500px;
+    height: 550px;
+    background: linear-gradient(45deg, #091540, #0F7173);
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    transition: .6s;
+}
+
+.popup-content .face {
+    width: 50%;
+    height: 40px;
+    background: linear-gradient(to right, #091540, #383961);
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    margin-left: 25%;
+}
+
+.popup-content .face:hover {
+    color: #CCCCCC;
+}
+
+.popup-content .twit {
+    width: 50%;
+    height: 40px;
+    background: linear-gradient(to right, #6184D8, #7A89C2);
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    margin-left: 25%;
+}
+
+.popup-content .twit:hover {
+    color: #CCCCCC;
+}
+
+.popup-content .twit {
+    color: white;
+}
+
+.close {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: #000;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    box-shadow: 6px 6px 29px -4px rgb(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+input {
+    margin: 20px auto;
+    display: block;
+    width: 50%;
+    height: -70%;
+    padding: 8%;
+    border: 1px solid #000000;
+    border-radius: 8px;
+}
+
+input:focus {
+    box-shadow: 5px #000;
+    outline: none;
+}

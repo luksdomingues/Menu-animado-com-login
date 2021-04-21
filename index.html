@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Animated Menu</title>
+</head>
+
+<body>
+    <div id="mainbox" onclick="openFunction()">&#9776; Open</div>
+    <div id="menu" class="sidemenu">
+
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#" class="button" id="button">Login</a>
+        <a href="#" class="closebtn" onclick="closeFunction()">&times;</a>
+
+    </div>
+
+    <h1>Olá, Usuário</h1>
+
+    <div class="popup">
+        <div class="popup-content">
+            <img src="file:///C:/Users/SAMSUNG/Documents/P%C3%A1gina%20de%20Login%20com%20Pop-up/close.png" alt="Close" class="close">
+            <input type="text" placeholder="Username">
+            <input type="password" placeholder="Password">
+            <h2>OR</h2>
+            <a href="#" class="face">Login With Facebook</a> <br>
+
+            <a href="#" class="twit">Login With Twitter</a> <br><br><br>
+            <a href="#" class="button">Login</a>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
